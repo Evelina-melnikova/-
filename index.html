@@ -10,7 +10,7 @@
 </head>
 
 <body class="page">
-<header class="header"></header>
+    <header class="header"></header>
     <main class="content">
         <section class="container_info">
             <div class="wrapper_info wrapper_info__text">
@@ -33,8 +33,8 @@
             </div>
             <div class="wrapper_info wrapper_info__button">
                 <div class="container_dog container_dog__item-photo a">
-                    <button type="button" class="container_dog__item-button">
-                        <img src="./img/Group 123.svg" alt="menu" class="button">
+                    <button type="button" class="container_dog__item-button open-popup">
+                        <img src="./img/Group 123.svg" alt="menu" class="button ">
                     </button>
                     <img src="./img/02e979374945be6cbbbbdc06a1a4746cb477d7a9.png" alt="dog"
                         class="container_dog__item-dog">
@@ -51,10 +51,26 @@
         </section>
 
         </div>
-        <!-- <section class="popup">
-
-        </section> -->
+        <section class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__container-logo">
+                    <img src="./img/Group 66.svg" alt="FindAFriend" class="popup__logo">
+                    <button type="button" class="popup__close">
+                        <img src="./img/close.svg" alt="close" class="popup__close_button ">
+                    </button>
+                </div>
+                <img src="./img/Vector 25.svg" alt="line" class="popup__line">
+                <div class="popup__container">
+                    <a href="./" class="popup__link">Home</a>
+                    <a href="./" class="popup__link">Sobre o app</a>
+                    <a href="./" class="popup__link">Animais disponíveis</a>
+                    <a href="./" class="popup__link">Sobre a FindAFriend</a>
+                    <a href="./" class="popup__link">Contato</a>
+                </div>
+            </div>
+        </section>
     </main>
+    <script src="./index.js"></script>
 </body>
 
 </html>
